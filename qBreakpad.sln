@@ -1,0 +1,31 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1525
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qBreakpad", "handler\qBreakpad.vcxproj", "{89E375E4-F4A0-3CE7-A661-6CCB41D0AC21}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test", "Test\Test.vcxproj", "{037BBC0F-16ED-4A48-B3FC-2FC85B246291}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89E375E4-F4A0-3CE7-A661-6CCB41D0AC21}.Debug|x64.ActiveCfg = Debug|x64
+		{89E375E4-F4A0-3CE7-A661-6CCB41D0AC21}.Debug|x64.Build.0 = Debug|x64
+		{89E375E4-F4A0-3CE7-A661-6CCB41D0AC21}.Release|x64.ActiveCfg = Release|x64
+		{89E375E4-F4A0-3CE7-A661-6CCB41D0AC21}.Release|x64.Build.0 = Release|x64
+		{037BBC0F-16ED-4A48-B3FC-2FC85B246291}.Debug|x64.ActiveCfg = Debug|x64
+		{037BBC0F-16ED-4A48-B3FC-2FC85B246291}.Debug|x64.Build.0 = Debug|x64
+		{037BBC0F-16ED-4A48-B3FC-2FC85B246291}.Release|x64.ActiveCfg = Release|x64
+		{037BBC0F-16ED-4A48-B3FC-2FC85B246291}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7D9E226-AA3A-40DF-9C5A-505ADCF001B3}
+		Qt5Version = 5.13.2_msvc2017_64
+	EndGlobalSection
+EndGlobal
