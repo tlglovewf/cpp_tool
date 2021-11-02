@@ -8,6 +8,8 @@
 *.dll
 *.dylib
 *.lib
+*.log
+*.tlog
 
 # Qt-es
 *.qmake.cache

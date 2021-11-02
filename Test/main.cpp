@@ -6,7 +6,7 @@
 #include "vld.h"
 
 #pragma comment (lib , "qBreakpad.lib")
-#pragma comment (lib, "dbghelp.lib")
+//#pragma comment (lib, "dbghelp.lib")
 
 
 
@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
 
 	testCrash();
 
-	testMemLeak()
+	testMemLeak();
 
 	return 1;
 }
